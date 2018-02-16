@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test verbose="2" name="Default test">
+    <classes>
+      <class name="com.newtour.flightfinderfunctional.testcases.TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest"/>
+    </classes>
+  </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.newtour.flightfinderfunctional.testcases.TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest">
+        <methods>
+          <include name="verifyCredentialsTest"/>
+          <include name="verifyLaunchURLTest"/>
+          <include name="verifyFlightSearch"/>
+          <include name="takeScreenShotOnFailure"/>
+          <include name="tearDown"/>
+          <include name="verifyOneWayFlightSearchTest"/>
+          <include name="before"/>
+          <include name="verifyNavigateBack"/>
+          <include name="verifySignOffTest"/>
+          <include name="verifyNavigateForward"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.newtour.flightfinderfunctional.testcases.TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

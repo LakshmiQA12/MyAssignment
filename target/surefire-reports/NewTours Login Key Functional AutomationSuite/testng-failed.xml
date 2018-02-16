@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [NewTours Login Key Functional AutomationSuite]">
+  <listeners>
+    <listener class-name="com.newtour.qa.ExtentReportListener.TestReporter"/>
+    <listener class-name="com.newtour.qa.ExtentReportListener.RetryListener"/>
+    <listener class-name="com.newtour.qa.ExtentReportListener.ExtentReport"/>
+  </listeners>
+  <test name="Login KeyFunctional TestSuite">
+    <classes>
+      <class name="com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_01_VerifyHomePageLoginTest"/>
+      <class name="com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_02_VerifySignOnPageLoginTest"/>
+      <class name="com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_03_VerifySignOnPageInvalidLoginTest"/>
+      <class name="com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_04_VerifyRegistrationViaSignOnPageTest"/>
+    </classes>
+  </test> <!-- Login KeyFunctional TestSuite -->
+  <test name="Login KeyFunctional TestSuite(failed)">
+    <classes>
+      <class name="com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_01_VerifyHomePageLoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="before"/>
+          <include name="takeScreenShotOnFailure"/>
+        </methods>
+      </class> <!-- com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_01_VerifyHomePageLoginTest -->
+      <class name="com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_03_VerifySignOnPageInvalidLoginTest">
+        <methods>
+          <include name="verifyURLLaunchTest"/>
+          <include name="verifySignOffTest"/>
+          <include name="verifyIsLoginSuccessfulTest"/>
+          <include name="before"/>
+          <include name="verifyValidCredentialsTest"/>
+          <include name="takeScreenShotOnFailure"/>
+          <include name="tearDown"/>
+          <include name="verifySignOnPageLogoTest"/>
+          <include name="verifySignonClickTest"/>
+          <include name="verifySignOnPageTitleTest"/>
+        </methods>
+      </class> <!-- com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_03_VerifySignOnPageInvalidLoginTest -->
+      <class name="com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_04_VerifyRegistrationViaSignOnPageTest">
+        <methods>
+          <include name="takeScreenShotOnFailure"/>
+          <include name="before"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_04_VerifyRegistrationViaSignOnPageTest -->
+      <class name="com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_02_VerifySignOnPageLoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="takeScreenShotOnFailure"/>
+          <include name="before"/>
+        </methods>
+      </class> <!-- com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_02_VerifySignOnPageLoginTest -->
+    </classes>
+  </test> <!-- Login KeyFunctional TestSuite(failed) -->
+</suite> <!-- Failed suite [NewTours Login Key Functional AutomationSuite] -->

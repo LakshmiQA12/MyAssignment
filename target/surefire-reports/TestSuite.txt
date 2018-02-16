@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 51, Failures: 2, Errors: 0, Skipped: 8, Time elapsed: 560.03 s <<< FAILURE! - in TestSuite
+verifyIsLoginSuccessfulTest(com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_03_VerifySignOnPageInvalidLoginTest)  Time elapsed: 2.03 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//img[contains(@src,'/images/masts/mast_flightfinder.gif')]"}
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'SEETHA', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\Lakshmi\AppData\Local\Temp\scoped_dir2624_12987}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: a4ffe343a2c06cc125aefead4e825a8e
+*** Element info: {Using=xpath, value=//img[contains(@src,'/images/masts/mast_flightfinder.gif')]}
+	at com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_03_VerifySignOnPageInvalidLoginTest.verifyIsLoginSuccessfulTest(TC_KF_LG_03_VerifySignOnPageInvalidLoginTest.java:82)
+
+verifyNavigateForward(com.newtour.flightfinderfunctional.testcases.TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest)  Time elapsed: 4.159 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//img[contains(@src,'/images/masts/mast_selectflight.gif')]"}
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.07 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'SEETHA', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\Lakshmi\AppData\Local\Temp\scoped_dir15716_11685}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1d9a814097dbc8c28c5460e9d9d21e9d
+*** Element info: {Using=xpath, value=//img[contains(@src,'/images/masts/mast_selectflight.gif')]}
+	at com.newtour.flightfinderfunctional.testcases.TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest.verifyNavigateForward(TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest.java:80)
+

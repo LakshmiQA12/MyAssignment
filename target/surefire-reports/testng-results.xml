@@ -1,0 +1,1969 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="8" failed="2" total="51" passed="41">
+  <reporter-output>
+  </reporter-output>
+  <suite name="NewTours Login Key Functional AutomationSuite" duration-ms="200102" started-at="2018-02-15T23:39:56Z" finished-at="2018-02-15T23:43:16Z">
+    <groups>
+    </groups>
+    <test name="Login KeyFunctional TestSuite" duration-ms="200102" started-at="2018-02-15T23:39:56Z" finished-at="2018-02-15T23:43:16Z">
+      <class name="com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_02_VerifySignOnPageLoginTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_02_VerifySignOnPageLoginTest@159424e2]" name="before" is-config="true" duration-ms="4635" started-at="2018-02-15T23:40:41Z" finished-at="2018-02-15T23:40:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="verifyURLLaunchTest()[pri:0, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_02_VerifySignOnPageLoginTest@159424e2]" name="verifyURLLaunchTest" duration-ms="3161" started-at="2018-02-15T23:40:46Z" finished-at="2018-02-15T23:40:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyURLLaunchTest -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_02_VerifySignOnPageLoginTest@159424e2]" name="takeScreenShotOnFailure" is-config="true" duration-ms="1" started-at="2018-02-15T23:40:49Z" finished-at="2018-02-15T23:40:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyURLLaunchTest status=SUCCESS method=TC_KF_LG_02_VerifySignOnPageLoginTest.verifyURLLaunchTest()[pri:0, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_02_VerifySignOnPageLoginTest@159424e2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="verifySignonClickTest()[pri:1, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_02_VerifySignOnPageLoginTest@159424e2]" name="verifySignonClickTest" duration-ms="15115" started-at="2018-02-15T23:40:49Z" depends-on-methods="com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_02_VerifySignOnPageLoginTest.verifyURLLaunchTest" finished-at="2018-02-15T23:41:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignonClickTest -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_02_VerifySignOnPageLoginTest@159424e2]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2018-02-15T23:41:04Z" finished-at="2018-02-15T23:41:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySignonClickTest status=SUCCESS method=TC_KF_LG_02_VerifySignOnPageLoginTest.verifySignonClickTest()[pri:1, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_02_VerifySignOnPageLoginTest@159424e2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="verifySignOnPageTitleTest()[pri:2, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_02_VerifySignOnPageLoginTest@159424e2]" name="verifySignOnPageTitleTest" duration-ms="16" started-at="2018-02-15T23:41:04Z" depends-on-methods="com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_02_VerifySignOnPageLoginTest.verifySignonClickTest" finished-at="2018-02-15T23:41:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignOnPageTitleTest -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_02_VerifySignOnPageLoginTest@159424e2]" name="takeScreenShotOnFailure" is-config="true" duration-ms="1" started-at="2018-02-15T23:41:04Z" finished-at="2018-02-15T23:41:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySignOnPageTitleTest status=SUCCESS method=TC_KF_LG_02_VerifySignOnPageLoginTest.verifySignOnPageTitleTest()[pri:2, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_02_VerifySignOnPageLoginTest@159424e2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="verifySignOnPageLogoTest()[pri:3, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_02_VerifySignOnPageLoginTest@159424e2]" name="verifySignOnPageLogoTest" duration-ms="2154" started-at="2018-02-15T23:41:04Z" depends-on-methods="com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_02_VerifySignOnPageLoginTest.verifySignOnPageTitleTest" finished-at="2018-02-15T23:41:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignOnPageLogoTest -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_02_VerifySignOnPageLoginTest@159424e2]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2018-02-15T23:41:06Z" finished-at="2018-02-15T23:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySignOnPageLogoTest status=SUCCESS method=TC_KF_LG_02_VerifySignOnPageLoginTest.verifySignOnPageLogoTest()[pri:3, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_02_VerifySignOnPageLoginTest@159424e2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="verifyValidCredentialsTest(java.lang.String, java.lang.String)[pri:4, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_02_VerifySignOnPageLoginTest@159424e2]" name="verifyValidCredentialsTest" duration-ms="23147" started-at="2018-02-15T23:41:06Z" data-provider="getTestData" depends-on-methods="com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_02_VerifySignOnPageLoginTest.verifySignOnPageLogoTest" finished-at="2018-02-15T23:41:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lakshmi12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Yourdreamsaremine0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidCredentialsTest -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_02_VerifySignOnPageLoginTest@159424e2]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2018-02-15T23:41:29Z" finished-at="2018-02-15T23:41:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyValidCredentialsTest status=SUCCESS method=TC_KF_LG_02_VerifySignOnPageLoginTest.verifyValidCredentialsTest(java.lang.String, java.lang.String)[pri:4, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_02_VerifySignOnPageLoginTest@159424e2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="verifyIsLoginSuccessfulTest()[pri:5, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_02_VerifySignOnPageLoginTest@159424e2]" name="verifyIsLoginSuccessfulTest" duration-ms="2984" started-at="2018-02-15T23:41:29Z" depends-on-methods="com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_02_VerifySignOnPageLoginTest.verifyValidCredentialsTest" finished-at="2018-02-15T23:41:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIsLoginSuccessfulTest -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_02_VerifySignOnPageLoginTest@159424e2]" name="takeScreenShotOnFailure" is-config="true" duration-ms="1" started-at="2018-02-15T23:41:32Z" finished-at="2018-02-15T23:41:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyIsLoginSuccessfulTest status=SUCCESS method=TC_KF_LG_02_VerifySignOnPageLoginTest.verifyIsLoginSuccessfulTest()[pri:5, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_02_VerifySignOnPageLoginTest@159424e2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="verifySignOffTest()[pri:6, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_02_VerifySignOnPageLoginTest@159424e2]" name="verifySignOffTest" duration-ms="11597" started-at="2018-02-15T23:41:32Z" depends-on-methods="com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_02_VerifySignOnPageLoginTest.verifyIsLoginSuccessfulTest" finished-at="2018-02-15T23:41:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignOffTest -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_02_VerifySignOnPageLoginTest@159424e2]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2018-02-15T23:41:44Z" finished-at="2018-02-15T23:41:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySignOffTest status=SUCCESS method=TC_KF_LG_02_VerifySignOnPageLoginTest.verifySignOffTest()[pri:6, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_02_VerifySignOnPageLoginTest@159424e2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_02_VerifySignOnPageLoginTest@159424e2]" name="tearDown" is-config="true" duration-ms="1831" started-at="2018-02-15T23:41:44Z" finished-at="2018-02-15T23:41:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_02_VerifySignOnPageLoginTest -->
+      <class name="com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_04_VerifyRegistrationViaSignOnPageTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_04_VerifyRegistrationViaSignOnPageTest@469a7575]" name="before" is-config="true" duration-ms="4033" started-at="2018-02-15T23:42:40Z" finished-at="2018-02-15T23:42:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="verifyURLLaunchTest()[pri:0, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_04_VerifyRegistrationViaSignOnPageTest@469a7575]" name="verifyURLLaunchTest" duration-ms="2195" started-at="2018-02-15T23:42:44Z" finished-at="2018-02-15T23:42:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyURLLaunchTest -->
+        <test-method status="PASS" signature="verifySignonClickTest()[pri:1, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_04_VerifyRegistrationViaSignOnPageTest@469a7575]" name="verifySignonClickTest" duration-ms="13569" started-at="2018-02-15T23:42:46Z" depends-on-methods="com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_04_VerifyRegistrationViaSignOnPageTest.verifyURLLaunchTest" finished-at="2018-02-15T23:43:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignonClickTest -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_04_VerifyRegistrationViaSignOnPageTest@469a7575]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2018-02-15T23:42:46Z" finished-at="2018-02-15T23:42:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyURLLaunchTest status=SUCCESS method=TC_KF_LG_04_VerifyRegistrationViaSignOnPageTest.verifyURLLaunchTest()[pri:0, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_04_VerifyRegistrationViaSignOnPageTest@469a7575] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_04_VerifyRegistrationViaSignOnPageTest@469a7575]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2018-02-15T23:43:00Z" finished-at="2018-02-15T23:43:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySignonClickTest status=SUCCESS method=TC_KF_LG_04_VerifyRegistrationViaSignOnPageTest.verifySignonClickTest()[pri:1, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_04_VerifyRegistrationViaSignOnPageTest@469a7575] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="verifyNavigationToRegistrationTest()[pri:2, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_04_VerifyRegistrationViaSignOnPageTest@469a7575]" name="verifyNavigationToRegistrationTest" duration-ms="12919" started-at="2018-02-15T23:43:00Z" depends-on-methods="com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_04_VerifyRegistrationViaSignOnPageTest.verifySignonClickTest" finished-at="2018-02-15T23:43:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNavigationToRegistrationTest -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_04_VerifyRegistrationViaSignOnPageTest@469a7575]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2018-02-15T23:43:12Z" finished-at="2018-02-15T23:43:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyNavigationToRegistrationTest status=SUCCESS method=TC_KF_LG_04_VerifyRegistrationViaSignOnPageTest.verifyNavigationToRegistrationTest()[pri:2, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_04_VerifyRegistrationViaSignOnPageTest@469a7575] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="verifyRegisterPageLogoTest()[pri:3, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_04_VerifyRegistrationViaSignOnPageTest@469a7575]" name="verifyRegisterPageLogoTest" duration-ms="2201" started-at="2018-02-15T23:43:12Z" depends-on-methods="com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_04_VerifyRegistrationViaSignOnPageTest.verifyNavigationToRegistrationTest" finished-at="2018-02-15T23:43:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterPageLogoTest -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_04_VerifyRegistrationViaSignOnPageTest@469a7575]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2018-02-15T23:43:15Z" finished-at="2018-02-15T23:43:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyRegisterPageLogoTest status=SUCCESS method=TC_KF_LG_04_VerifyRegistrationViaSignOnPageTest.verifyRegisterPageLogoTest()[pri:3, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_04_VerifyRegistrationViaSignOnPageTest@469a7575] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_04_VerifyRegistrationViaSignOnPageTest@469a7575]" name="tearDown" is-config="true" duration-ms="1609" started-at="2018-02-15T23:43:15Z" finished-at="2018-02-15T23:43:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_04_VerifyRegistrationViaSignOnPageTest -->
+      <class name="com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_01_VerifyHomePageLoginTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_01_VerifyHomePageLoginTest@78a8978a]" name="before" is-config="true" duration-ms="5378" started-at="2018-02-15T23:39:56Z" finished-at="2018-02-15T23:40:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="verifyURLLaunchTest()[pri:0, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_01_VerifyHomePageLoginTest@78a8978a]" name="verifyURLLaunchTest" duration-ms="1944" started-at="2018-02-15T23:40:02Z" finished-at="2018-02-15T23:40:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyURLLaunchTest -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_01_VerifyHomePageLoginTest@78a8978a]" name="takeScreenShotOnFailure" is-config="true" duration-ms="1" started-at="2018-02-15T23:40:03Z" finished-at="2018-02-15T23:40:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyURLLaunchTest status=SUCCESS method=TC_KF_LG_01_VerifyHomePageLoginTest.verifyURLLaunchTest()[pri:0, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_01_VerifyHomePageLoginTest@78a8978a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:1, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_01_VerifyHomePageLoginTest@78a8978a]" name="verifyHomePageTitleTest" duration-ms="24" started-at="2018-02-15T23:40:03Z" depends-on-methods="com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_01_VerifyHomePageLoginTest.verifyURLLaunchTest" finished-at="2018-02-15T23:40:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_01_VerifyHomePageLoginTest@78a8978a]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2018-02-15T23:40:04Z" finished-at="2018-02-15T23:40:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHomePageTitleTest status=SUCCESS method=TC_KF_LG_01_VerifyHomePageLoginTest.verifyHomePageTitleTest()[pri:1, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_01_VerifyHomePageLoginTest@78a8978a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="verifyHomePageLogoTest()[pri:2, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_01_VerifyHomePageLoginTest@78a8978a]" name="verifyHomePageLogoTest" duration-ms="2541" started-at="2018-02-15T23:40:04Z" depends-on-methods="com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_01_VerifyHomePageLoginTest.verifyHomePageTitleTest" finished-at="2018-02-15T23:40:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageLogoTest -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_01_VerifyHomePageLoginTest@78a8978a]" name="takeScreenShotOnFailure" is-config="true" duration-ms="1" started-at="2018-02-15T23:40:06Z" finished-at="2018-02-15T23:40:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHomePageLogoTest status=SUCCESS method=TC_KF_LG_01_VerifyHomePageLoginTest.verifyHomePageLogoTest()[pri:2, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_01_VerifyHomePageLoginTest@78a8978a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="verifyValidCredentialsTest(java.lang.String, java.lang.String)[pri:3, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_01_VerifyHomePageLoginTest@78a8978a]" name="verifyValidCredentialsTest" duration-ms="19903" started-at="2018-02-15T23:40:07Z" data-provider="getTestData" depends-on-methods="com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_01_VerifyHomePageLoginTest.verifyHomePageLogoTest" finished-at="2018-02-15T23:40:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lakshmi12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Yourdreamsaremine0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidCredentialsTest -->
+        <test-method status="PASS" signature="verifyIsLoginSuccessfulTest()[pri:4, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_01_VerifyHomePageLoginTest@78a8978a]" name="verifyIsLoginSuccessfulTest" duration-ms="136" started-at="2018-02-15T23:40:27Z" depends-on-methods="com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_01_VerifyHomePageLoginTest.verifyValidCredentialsTest" finished-at="2018-02-15T23:40:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIsLoginSuccessfulTest -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_01_VerifyHomePageLoginTest@78a8978a]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2018-02-15T23:40:27Z" finished-at="2018-02-15T23:40:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyValidCredentialsTest status=SUCCESS method=TC_KF_LG_01_VerifyHomePageLoginTest.verifyValidCredentialsTest(java.lang.String, java.lang.String)[pri:3, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_01_VerifyHomePageLoginTest@78a8978a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_01_VerifyHomePageLoginTest@78a8978a]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2018-02-15T23:40:27Z" finished-at="2018-02-15T23:40:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyIsLoginSuccessfulTest status=SUCCESS method=TC_KF_LG_01_VerifyHomePageLoginTest.verifyIsLoginSuccessfulTest()[pri:4, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_01_VerifyHomePageLoginTest@78a8978a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="verifySignOffTest()[pri:5, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_01_VerifyHomePageLoginTest@78a8978a]" name="verifySignOffTest" duration-ms="11570" started-at="2018-02-15T23:40:27Z" depends-on-methods="com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_01_VerifyHomePageLoginTest.verifyIsLoginSuccessfulTest" finished-at="2018-02-15T23:40:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignOffTest -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_01_VerifyHomePageLoginTest@78a8978a]" name="takeScreenShotOnFailure" is-config="true" duration-ms="1" started-at="2018-02-15T23:40:39Z" finished-at="2018-02-15T23:40:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySignOffTest status=SUCCESS method=TC_KF_LG_01_VerifyHomePageLoginTest.verifySignOffTest()[pri:5, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_01_VerifyHomePageLoginTest@78a8978a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_01_VerifyHomePageLoginTest@78a8978a]" name="tearDown" is-config="true" duration-ms="2549" started-at="2018-02-15T23:40:39Z" finished-at="2018-02-15T23:40:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_01_VerifyHomePageLoginTest -->
+      <class name="com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_03_VerifySignOnPageInvalidLoginTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_03_VerifySignOnPageInvalidLoginTest@3b24087d]" name="before" is-config="true" duration-ms="4164" started-at="2018-02-15T23:41:46Z" finished-at="2018-02-15T23:41:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="verifyURLLaunchTest()[pri:0, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_03_VerifySignOnPageInvalidLoginTest@3b24087d]" name="verifyURLLaunchTest" duration-ms="1865" started-at="2018-02-15T23:41:50Z" finished-at="2018-02-15T23:41:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyURLLaunchTest -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_03_VerifySignOnPageInvalidLoginTest@3b24087d]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2018-02-15T23:41:52Z" finished-at="2018-02-15T23:41:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyURLLaunchTest status=SUCCESS method=TC_KF_LG_03_VerifySignOnPageInvalidLoginTest.verifyURLLaunchTest()[pri:0, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_03_VerifySignOnPageInvalidLoginTest@3b24087d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="verifySignonClickTest()[pri:1, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_03_VerifySignOnPageInvalidLoginTest@3b24087d]" name="verifySignonClickTest" duration-ms="14174" started-at="2018-02-15T23:41:52Z" depends-on-methods="com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_03_VerifySignOnPageInvalidLoginTest.verifyURLLaunchTest" finished-at="2018-02-15T23:42:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignonClickTest -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_03_VerifySignOnPageInvalidLoginTest@3b24087d]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2018-02-15T23:42:06Z" finished-at="2018-02-15T23:42:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySignonClickTest status=SUCCESS method=TC_KF_LG_03_VerifySignOnPageInvalidLoginTest.verifySignonClickTest()[pri:1, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_03_VerifySignOnPageInvalidLoginTest@3b24087d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="verifySignOnPageTitleTest()[pri:2, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_03_VerifySignOnPageInvalidLoginTest@3b24087d]" name="verifySignOnPageTitleTest" duration-ms="14" started-at="2018-02-15T23:42:06Z" depends-on-methods="com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_03_VerifySignOnPageInvalidLoginTest.verifySignonClickTest" finished-at="2018-02-15T23:42:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignOnPageTitleTest -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_03_VerifySignOnPageInvalidLoginTest@3b24087d]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2018-02-15T23:42:06Z" finished-at="2018-02-15T23:42:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySignOnPageTitleTest status=SUCCESS method=TC_KF_LG_03_VerifySignOnPageInvalidLoginTest.verifySignOnPageTitleTest()[pri:2, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_03_VerifySignOnPageInvalidLoginTest@3b24087d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="verifySignOnPageLogoTest()[pri:3, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_03_VerifySignOnPageInvalidLoginTest@3b24087d]" name="verifySignOnPageLogoTest" duration-ms="2232" started-at="2018-02-15T23:42:06Z" depends-on-methods="com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_03_VerifySignOnPageInvalidLoginTest.verifySignOnPageTitleTest" finished-at="2018-02-15T23:42:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignOnPageLogoTest -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_03_VerifySignOnPageInvalidLoginTest@3b24087d]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2018-02-15T23:42:08Z" finished-at="2018-02-15T23:42:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySignOnPageLogoTest status=SUCCESS method=TC_KF_LG_03_VerifySignOnPageInvalidLoginTest.verifySignOnPageLogoTest()[pri:3, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_03_VerifySignOnPageInvalidLoginTest@3b24087d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="verifyValidCredentialsTest(java.lang.String, java.lang.String)[pri:4, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_03_VerifySignOnPageInvalidLoginTest@3b24087d]" name="verifyValidCredentialsTest" duration-ms="21103" started-at="2018-02-15T23:42:08Z" data-provider="getInvalidTestData" depends-on-methods="com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_03_VerifySignOnPageInvalidLoginTest.verifySignOnPageLogoTest" finished-at="2018-02-15T23:42:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lakshmiay12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidCredentialsTest -->
+        <test-method status="SKIP" signature="verifyIsLoginSuccessfulTest()[pri:5, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_03_VerifySignOnPageInvalidLoginTest@3b24087d]" name="verifyIsLoginSuccessfulTest" duration-ms="2045" started-at="2018-02-15T23:42:30Z" depends-on-methods="com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_03_VerifySignOnPageInvalidLoginTest.verifyValidCredentialsTest" finished-at="2018-02-15T23:42:32Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//img[contains(@src,'/images/masts/mast_flightfinder.gif')]"}
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'SEETHA', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\Lakshmi\AppData\Local\Temp\scoped_dir2624_12987}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: a4ffe343a2c06cc125aefead4e825a8e
+*** Element info: {Using=xpath, value=//img[contains(@src,'/images/masts/mast_flightfinder.gif')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//img[contains(@src,'/images/masts/mast_flightfinder.gif')]"}
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'SEETHA', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\Lakshmi\AppData\Local\Temp\scoped_dir2624_12987}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: a4ffe343a2c06cc125aefead4e825a8e
+*** Element info: {Using=xpath, value=//img[contains(@src,'/images/masts/mast_flightfinder.gif')]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at com.newtour.qa.helper.XpathHelper.findByXPath(XpathHelper.java:88)
+	at com.newtour.qa.pages.FlightsPage.isFlightPageLogoDisplayed(FlightsPage.java:230)
+	at com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_03_VerifySignOnPageInvalidLoginTest.verifyIsLoginSuccessfulTest(TC_KF_LG_03_VerifySignOnPageInvalidLoginTest.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:202)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:158)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:81)
+	at org.apache.maven.plugin.surefire.InPluginVMSurefireStarter.runSuitesInProcess(InPluginVMSurefireStarter.java:84)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:1060)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:907)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:785)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:134)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:207)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:116)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:80)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:51)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:307)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:193)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:106)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:863)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:288)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:199)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIsLoginSuccessfulTest -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_03_VerifySignOnPageInvalidLoginTest@3b24087d]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2018-02-15T23:42:30Z" finished-at="2018-02-15T23:42:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyValidCredentialsTest status=SUCCESS method=TC_KF_LG_03_VerifySignOnPageInvalidLoginTest.verifyValidCredentialsTest(java.lang.String, java.lang.String)[pri:4, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_03_VerifySignOnPageInvalidLoginTest@3b24087d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_03_VerifySignOnPageInvalidLoginTest@3b24087d]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2018-02-15T23:42:32Z" finished-at="2018-02-15T23:42:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyIsLoginSuccessfulTest status=SKIP method=TC_KF_LG_03_VerifySignOnPageInvalidLoginTest.verifyIsLoginSuccessfulTest()[pri:5, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_03_VerifySignOnPageInvalidLoginTest@3b24087d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="SKIP" signature="verifyIsLoginSuccessfulTest()[pri:5, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_03_VerifySignOnPageInvalidLoginTest@3b24087d]" name="verifyIsLoginSuccessfulTest" duration-ms="2029" started-at="2018-02-15T23:42:32Z" depends-on-methods="com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_03_VerifySignOnPageInvalidLoginTest.verifyValidCredentialsTest" finished-at="2018-02-15T23:42:34Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//img[contains(@src,'/images/masts/mast_flightfinder.gif')]"}
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'SEETHA', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\Lakshmi\AppData\Local\Temp\scoped_dir2624_12987}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: a4ffe343a2c06cc125aefead4e825a8e
+*** Element info: {Using=xpath, value=//img[contains(@src,'/images/masts/mast_flightfinder.gif')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//img[contains(@src,'/images/masts/mast_flightfinder.gif')]"}
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'SEETHA', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\Lakshmi\AppData\Local\Temp\scoped_dir2624_12987}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: a4ffe343a2c06cc125aefead4e825a8e
+*** Element info: {Using=xpath, value=//img[contains(@src,'/images/masts/mast_flightfinder.gif')]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at com.newtour.qa.helper.XpathHelper.findByXPath(XpathHelper.java:88)
+	at com.newtour.qa.pages.FlightsPage.isFlightPageLogoDisplayed(FlightsPage.java:230)
+	at com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_03_VerifySignOnPageInvalidLoginTest.verifyIsLoginSuccessfulTest(TC_KF_LG_03_VerifySignOnPageInvalidLoginTest.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:967)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:202)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:158)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:81)
+	at org.apache.maven.plugin.surefire.InPluginVMSurefireStarter.runSuitesInProcess(InPluginVMSurefireStarter.java:84)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:1060)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:907)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:785)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:134)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:207)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:116)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:80)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:51)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:307)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:193)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:106)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:863)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:288)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:199)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIsLoginSuccessfulTest -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_03_VerifySignOnPageInvalidLoginTest@3b24087d]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2018-02-15T23:42:34Z" finished-at="2018-02-15T23:42:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyIsLoginSuccessfulTest status=SKIP method=TC_KF_LG_03_VerifySignOnPageInvalidLoginTest.verifyIsLoginSuccessfulTest()[pri:5, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_03_VerifySignOnPageInvalidLoginTest@3b24087d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="SKIP" signature="verifyIsLoginSuccessfulTest()[pri:5, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_03_VerifySignOnPageInvalidLoginTest@3b24087d]" name="verifyIsLoginSuccessfulTest" duration-ms="2041" started-at="2018-02-15T23:42:34Z" depends-on-methods="com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_03_VerifySignOnPageInvalidLoginTest.verifyValidCredentialsTest" finished-at="2018-02-15T23:42:36Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//img[contains(@src,'/images/masts/mast_flightfinder.gif')]"}
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'SEETHA', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\Lakshmi\AppData\Local\Temp\scoped_dir2624_12987}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: a4ffe343a2c06cc125aefead4e825a8e
+*** Element info: {Using=xpath, value=//img[contains(@src,'/images/masts/mast_flightfinder.gif')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//img[contains(@src,'/images/masts/mast_flightfinder.gif')]"}
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'SEETHA', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\Lakshmi\AppData\Local\Temp\scoped_dir2624_12987}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: a4ffe343a2c06cc125aefead4e825a8e
+*** Element info: {Using=xpath, value=//img[contains(@src,'/images/masts/mast_flightfinder.gif')]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at com.newtour.qa.helper.XpathHelper.findByXPath(XpathHelper.java:88)
+	at com.newtour.qa.pages.FlightsPage.isFlightPageLogoDisplayed(FlightsPage.java:230)
+	at com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_03_VerifySignOnPageInvalidLoginTest.verifyIsLoginSuccessfulTest(TC_KF_LG_03_VerifySignOnPageInvalidLoginTest.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:967)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:202)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:158)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:81)
+	at org.apache.maven.plugin.surefire.InPluginVMSurefireStarter.runSuitesInProcess(InPluginVMSurefireStarter.java:84)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:1060)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:907)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:785)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:134)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:207)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:116)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:80)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:51)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:307)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:193)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:106)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:863)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:288)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:199)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIsLoginSuccessfulTest -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_03_VerifySignOnPageInvalidLoginTest@3b24087d]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2018-02-15T23:42:36Z" finished-at="2018-02-15T23:42:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyIsLoginSuccessfulTest status=SKIP method=TC_KF_LG_03_VerifySignOnPageInvalidLoginTest.verifyIsLoginSuccessfulTest()[pri:5, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_03_VerifySignOnPageInvalidLoginTest@3b24087d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="FAIL" signature="verifyIsLoginSuccessfulTest()[pri:5, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_03_VerifySignOnPageInvalidLoginTest@3b24087d]" name="verifyIsLoginSuccessfulTest" duration-ms="2029" started-at="2018-02-15T23:42:36Z" depends-on-methods="com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_03_VerifySignOnPageInvalidLoginTest.verifyValidCredentialsTest" finished-at="2018-02-15T23:42:38Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//img[contains(@src,'/images/masts/mast_flightfinder.gif')]"}
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'SEETHA', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\Lakshmi\AppData\Local\Temp\scoped_dir2624_12987}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: a4ffe343a2c06cc125aefead4e825a8e
+*** Element info: {Using=xpath, value=//img[contains(@src,'/images/masts/mast_flightfinder.gif')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//img[contains(@src,'/images/masts/mast_flightfinder.gif')]"}
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'SEETHA', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\Lakshmi\AppData\Local\Temp\scoped_dir2624_12987}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: a4ffe343a2c06cc125aefead4e825a8e
+*** Element info: {Using=xpath, value=//img[contains(@src,'/images/masts/mast_flightfinder.gif')]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at com.newtour.qa.helper.XpathHelper.findByXPath(XpathHelper.java:88)
+	at com.newtour.qa.pages.FlightsPage.isFlightPageLogoDisplayed(FlightsPage.java:230)
+	at com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_03_VerifySignOnPageInvalidLoginTest.verifyIsLoginSuccessfulTest(TC_KF_LG_03_VerifySignOnPageInvalidLoginTest.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:967)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:202)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:158)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:81)
+	at org.apache.maven.plugin.surefire.InPluginVMSurefireStarter.runSuitesInProcess(InPluginVMSurefireStarter.java:84)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:1060)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:907)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:785)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:134)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:207)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:116)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:80)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:51)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:307)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:193)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:106)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:863)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:288)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:199)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIsLoginSuccessfulTest -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_03_VerifySignOnPageInvalidLoginTest@3b24087d]" name="takeScreenShotOnFailure" is-config="true" duration-ms="653" started-at="2018-02-15T23:42:38Z" finished-at="2018-02-15T23:42:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyIsLoginSuccessfulTest status=FAILURE method=TC_KF_LG_03_VerifySignOnPageInvalidLoginTest.verifyIsLoginSuccessfulTest()[pri:5, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_03_VerifySignOnPageInvalidLoginTest@3b24087d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="SKIP" signature="verifySignOffTest()[pri:6, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_03_VerifySignOnPageInvalidLoginTest@3b24087d]" name="verifySignOffTest" duration-ms="1" started-at="2018-02-15T23:42:38Z" depends-on-methods="com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_03_VerifySignOnPageInvalidLoginTest.verifyIsLoginSuccessfulTest" finished-at="2018-02-15T23:42:38Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TC_KF_LG_03_VerifySignOnPageInvalidLoginTest.verifySignOffTest()[pri:6, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_03_VerifySignOnPageInvalidLoginTest@3b24087d] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TC_KF_LG_03_VerifySignOnPageInvalidLoginTest.verifySignOffTest()[pri:6, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_03_VerifySignOnPageInvalidLoginTest@3b24087d] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1037)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:202)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:158)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:81)
+	at org.apache.maven.plugin.surefire.InPluginVMSurefireStarter.runSuitesInProcess(InPluginVMSurefireStarter.java:84)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:1060)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:907)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:785)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:134)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:207)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:116)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:80)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:51)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:307)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:193)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:106)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:863)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:288)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:199)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignOffTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_03_VerifySignOnPageInvalidLoginTest@3b24087d]" name="tearDown" is-config="true" duration-ms="1376" started-at="2018-02-15T23:42:38Z" finished-at="2018-02-15T23:42:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_03_VerifySignOnPageInvalidLoginTest -->
+    </test> <!-- Login KeyFunctional TestSuite -->
+  </suite> <!-- NewTours Login Key Functional AutomationSuite -->
+  <suite name="NewTours Flight Finder Key Functional AutomationSuite" duration-ms="355742" started-at="2018-02-15T23:43:16Z" finished-at="2018-02-15T23:49:12Z">
+    <groups>
+    </groups>
+    <test name="Flight Finder KeyFunctional Automation TestSuite" duration-ms="355742" started-at="2018-02-15T23:43:16Z" finished-at="2018-02-15T23:49:12Z">
+      <class name="com.newtour.flightfinderfunctional.testcases.TC_KF_FF_02_VerifyRoundTripFlightSearchTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_02_VerifyRoundTripFlightSearchTest@1e01b133]" name="before" is-config="true" duration-ms="4191" started-at="2018-02-15T23:45:27Z" finished-at="2018-02-15T23:45:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="verifyLaunchURLTest()[pri:0, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_02_VerifyRoundTripFlightSearchTest@1e01b133]" name="verifyLaunchURLTest" duration-ms="1726" started-at="2018-02-15T23:45:31Z" finished-at="2018-02-15T23:45:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLaunchURLTest -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_02_VerifyRoundTripFlightSearchTest@1e01b133]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2018-02-15T23:45:33Z" finished-at="2018-02-15T23:45:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLaunchURLTest status=SUCCESS method=TC_KF_FF_02_VerifyRoundTripFlightSearchTest.verifyLaunchURLTest()[pri:0, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_02_VerifyRoundTripFlightSearchTest@1e01b133] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="verifyCredentialsTest(java.lang.String, java.lang.String)[pri:1, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_02_VerifyRoundTripFlightSearchTest@1e01b133]" name="verifyCredentialsTest" duration-ms="19524" started-at="2018-02-15T23:45:33Z" data-provider="getTestData" depends-on-methods="com.newtour.flightfinderfunctional.testcases.TC_KF_FF_02_VerifyRoundTripFlightSearchTest.verifyLaunchURLTest" finished-at="2018-02-15T23:45:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lakshmi12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Yourdreamsaremine0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCredentialsTest -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_02_VerifyRoundTripFlightSearchTest@1e01b133]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2018-02-15T23:45:52Z" finished-at="2018-02-15T23:45:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCredentialsTest status=SUCCESS method=TC_KF_FF_02_VerifyRoundTripFlightSearchTest.verifyCredentialsTest(java.lang.String, java.lang.String)[pri:1, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_02_VerifyRoundTripFlightSearchTest@1e01b133] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="verifyRoundTripFlightSearchTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_02_VerifyRoundTripFlightSearchTest@1e01b133]" name="verifyRoundTripFlightSearchTest" duration-ms="55166" started-at="2018-02-15T23:45:52Z" data-provider="getRoundTripJourneyTestData" depends-on-methods="com.newtour.flightfinderfunctional.testcases.TC_KF_FF_02_VerifyRoundTripFlightSearchTest.verifyCredentialsTest" finished-at="2018-02-15T23:46:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[London]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[June]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[15.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Paris]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[July]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[15.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[First]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Pangea Airlines]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRoundTripFlightSearchTest -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_02_VerifyRoundTripFlightSearchTest@1e01b133]" name="takeScreenShotOnFailure" is-config="true" duration-ms="1" started-at="2018-02-15T23:46:47Z" finished-at="2018-02-15T23:46:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyRoundTripFlightSearchTest status=SUCCESS method=TC_KF_FF_02_VerifyRoundTripFlightSearchTest.verifyRoundTripFlightSearchTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_02_VerifyRoundTripFlightSearchTest@1e01b133] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="verifyFlightSearch()[pri:3, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_02_VerifyRoundTripFlightSearchTest@1e01b133]" name="verifyFlightSearch" duration-ms="2484" started-at="2018-02-15T23:46:47Z" depends-on-methods="com.newtour.flightfinderfunctional.testcases.TC_KF_FF_02_VerifyRoundTripFlightSearchTest.verifyRoundTripFlightSearchTest" finished-at="2018-02-15T23:46:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFlightSearch -->
+        <test-method status="PASS" signature="verifyFlightDetailsList()[pri:4, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_02_VerifyRoundTripFlightSearchTest@1e01b133]" name="verifyFlightDetailsList" duration-ms="16549" started-at="2018-02-15T23:46:50Z" depends-on-methods="com.newtour.flightfinderfunctional.testcases.TC_KF_FF_02_VerifyRoundTripFlightSearchTest.verifyFlightSearch" finished-at="2018-02-15T23:47:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFlightDetailsList -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_02_VerifyRoundTripFlightSearchTest@1e01b133]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2018-02-15T23:46:50Z" finished-at="2018-02-15T23:46:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFlightSearch status=SUCCESS method=TC_KF_FF_02_VerifyRoundTripFlightSearchTest.verifyFlightSearch()[pri:3, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_02_VerifyRoundTripFlightSearchTest@1e01b133] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_02_VerifyRoundTripFlightSearchTest@1e01b133]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2018-02-15T23:47:06Z" finished-at="2018-02-15T23:47:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFlightDetailsList status=SUCCESS method=TC_KF_FF_02_VerifyRoundTripFlightSearchTest.verifyFlightDetailsList()[pri:4, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_02_VerifyRoundTripFlightSearchTest@1e01b133] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="verifyReserveFlights()[pri:5, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_02_VerifyRoundTripFlightSearchTest@1e01b133]" name="verifyReserveFlights" duration-ms="2126" started-at="2018-02-15T23:47:06Z" depends-on-methods="com.newtour.flightfinderfunctional.testcases.TC_KF_FF_02_VerifyRoundTripFlightSearchTest.verifyFlightDetailsList" finished-at="2018-02-15T23:47:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyReserveFlights -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_02_VerifyRoundTripFlightSearchTest@1e01b133]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2018-02-15T23:47:08Z" finished-at="2018-02-15T23:47:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyReserveFlights status=SUCCESS method=TC_KF_FF_02_VerifyRoundTripFlightSearchTest.verifyReserveFlights()[pri:5, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_02_VerifyRoundTripFlightSearchTest@1e01b133] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="verifySignOffTest()[pri:6, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_02_VerifyRoundTripFlightSearchTest@1e01b133]" name="verifySignOffTest" duration-ms="10147" started-at="2018-02-15T23:47:08Z" depends-on-methods="com.newtour.flightfinderfunctional.testcases.TC_KF_FF_02_VerifyRoundTripFlightSearchTest.verifyReserveFlights" finished-at="2018-02-15T23:47:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignOffTest -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_02_VerifyRoundTripFlightSearchTest@1e01b133]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2018-02-15T23:47:19Z" finished-at="2018-02-15T23:47:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySignOffTest status=SUCCESS method=TC_KF_FF_02_VerifyRoundTripFlightSearchTest.verifySignOffTest()[pri:6, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_02_VerifyRoundTripFlightSearchTest@1e01b133] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_02_VerifyRoundTripFlightSearchTest@1e01b133]" name="tearDown" is-config="true" duration-ms="1735" started-at="2018-02-15T23:47:19Z" finished-at="2018-02-15T23:47:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.newtour.flightfinderfunctional.testcases.TC_KF_FF_02_VerifyRoundTripFlightSearchTest -->
+      <class name="com.newtour.flightfinderfunctional.testcases.TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest@78da899f]" name="before" is-config="true" duration-ms="3958" started-at="2018-02-15T23:47:20Z" finished-at="2018-02-15T23:47:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest@78da899f]" name="setUp" is-config="true" duration-ms="1" started-at="2018-02-15T23:47:24Z" finished-at="2018-02-15T23:47:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLaunchURLTest()[pri:0, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest@78da899f]" name="verifyLaunchURLTest" duration-ms="1966" started-at="2018-02-15T23:47:24Z" finished-at="2018-02-15T23:47:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLaunchURLTest -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest@78da899f]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2018-02-15T23:47:26Z" finished-at="2018-02-15T23:47:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLaunchURLTest status=SUCCESS method=TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest.verifyLaunchURLTest()[pri:0, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest@78da899f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="verifyCredentialsTest(java.lang.String, java.lang.String)[pri:1, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest@78da899f]" name="verifyCredentialsTest" duration-ms="19197" started-at="2018-02-15T23:47:26Z" data-provider="getTestData" depends-on-methods="com.newtour.flightfinderfunctional.testcases.TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest.verifyLaunchURLTest" finished-at="2018-02-15T23:47:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lakshmi12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Yourdreamsaremine0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCredentialsTest -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest@78da899f]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2018-02-15T23:47:45Z" finished-at="2018-02-15T23:47:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCredentialsTest status=SUCCESS method=TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest.verifyCredentialsTest(java.lang.String, java.lang.String)[pri:1, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest@78da899f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="verifyOneWayFlightSearchTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest@78da899f]" name="verifyOneWayFlightSearchTest" duration-ms="61024" started-at="2018-02-15T23:47:46Z" data-provider="getJourneyTestData" depends-on-methods="com.newtour.flightfinderfunctional.testcases.TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest.verifyCredentialsTest" finished-at="2018-02-15T23:48:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Frankfurt]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[March]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[12.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Zurich]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[May]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Business]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Unified Airlines]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOneWayFlightSearchTest -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest@78da899f]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2018-02-15T23:48:47Z" finished-at="2018-02-15T23:48:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyOneWayFlightSearchTest status=SUCCESS method=TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest.verifyOneWayFlightSearchTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest@78da899f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="verifyFlightSearch()[pri:3, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest@78da899f]" name="verifyFlightSearch" duration-ms="2193" started-at="2018-02-15T23:48:47Z" depends-on-methods="com.newtour.flightfinderfunctional.testcases.TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest.verifyOneWayFlightSearchTest" finished-at="2018-02-15T23:48:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFlightSearch -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest@78da899f]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2018-02-15T23:48:49Z" finished-at="2018-02-15T23:48:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFlightSearch status=SUCCESS method=TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest.verifyFlightSearch()[pri:3, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest@78da899f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="verifyNavigateBack()[pri:4, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest@78da899f]" name="verifyNavigateBack" duration-ms="4716" started-at="2018-02-15T23:48:49Z" depends-on-methods="com.newtour.flightfinderfunctional.testcases.TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest.verifyFlightSearch" finished-at="2018-02-15T23:48:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNavigateBack -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest@78da899f]" name="takeScreenShotOnFailure" is-config="true" duration-ms="1" started-at="2018-02-15T23:48:53Z" finished-at="2018-02-15T23:48:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyNavigateBack status=SUCCESS method=TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest.verifyNavigateBack()[pri:4, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest@78da899f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="SKIP" signature="verifyNavigateForward()[pri:5, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest@78da899f]" name="verifyNavigateForward" duration-ms="4243" started-at="2018-02-15T23:48:53Z" depends-on-methods="com.newtour.flightfinderfunctional.testcases.TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest.verifyNavigateBack" finished-at="2018-02-15T23:48:58Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//img[contains(@src,'/images/masts/mast_selectflight.gif')]"}
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.07 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'SEETHA', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\Lakshmi\AppData\Local\Temp\scoped_dir15716_11685}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1d9a814097dbc8c28c5460e9d9d21e9d
+*** Element info: {Using=xpath, value=//img[contains(@src,'/images/masts/mast_selectflight.gif')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//img[contains(@src,'/images/masts/mast_selectflight.gif')]"}
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.07 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'SEETHA', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\Lakshmi\AppData\Local\Temp\scoped_dir15716_11685}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1d9a814097dbc8c28c5460e9d9d21e9d
+*** Element info: {Using=xpath, value=//img[contains(@src,'/images/masts/mast_selectflight.gif')]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at com.newtour.qa.helper.XpathHelper.findByXPath(XpathHelper.java:88)
+	at com.newtour.qa.pages.FlightsPage.isFlightSearchSuccessful(FlightsPage.java:252)
+	at com.newtour.qa.pages.FlightsPage.verifyNavigateForward(FlightsPage.java:319)
+	at com.newtour.flightfinderfunctional.testcases.TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest.verifyNavigateForward(TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest.java:80)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:202)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:158)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:81)
+	at org.apache.maven.plugin.surefire.InPluginVMSurefireStarter.runSuitesInProcess(InPluginVMSurefireStarter.java:84)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:1060)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:907)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:785)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:134)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:207)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:116)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:80)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:51)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:307)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:193)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:106)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:863)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:288)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:199)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNavigateForward -->
+        <test-method status="SKIP" signature="verifyNavigateForward()[pri:5, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest@78da899f]" name="verifyNavigateForward" duration-ms="4111" started-at="2018-02-15T23:48:58Z" depends-on-methods="com.newtour.flightfinderfunctional.testcases.TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest.verifyNavigateBack" finished-at="2018-02-15T23:49:02Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//img[contains(@src,'/images/masts/mast_selectflight.gif')]"}
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'SEETHA', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\Lakshmi\AppData\Local\Temp\scoped_dir15716_11685}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1d9a814097dbc8c28c5460e9d9d21e9d
+*** Element info: {Using=xpath, value=//img[contains(@src,'/images/masts/mast_selectflight.gif')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//img[contains(@src,'/images/masts/mast_selectflight.gif')]"}
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'SEETHA', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\Lakshmi\AppData\Local\Temp\scoped_dir15716_11685}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1d9a814097dbc8c28c5460e9d9d21e9d
+*** Element info: {Using=xpath, value=//img[contains(@src,'/images/masts/mast_selectflight.gif')]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at com.newtour.qa.helper.XpathHelper.findByXPath(XpathHelper.java:88)
+	at com.newtour.qa.pages.FlightsPage.isFlightSearchSuccessful(FlightsPage.java:252)
+	at com.newtour.qa.pages.FlightsPage.verifyNavigateForward(FlightsPage.java:319)
+	at com.newtour.flightfinderfunctional.testcases.TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest.verifyNavigateForward(TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest.java:80)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:967)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:202)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:158)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:81)
+	at org.apache.maven.plugin.surefire.InPluginVMSurefireStarter.runSuitesInProcess(InPluginVMSurefireStarter.java:84)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:1060)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:907)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:785)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:134)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:207)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:116)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:80)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:51)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:307)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:193)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:106)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:863)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:288)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:199)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNavigateForward -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest@78da899f]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2018-02-15T23:48:58Z" finished-at="2018-02-15T23:48:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyNavigateForward status=SKIP method=TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest.verifyNavigateForward()[pri:5, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest@78da899f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest@78da899f]" name="takeScreenShotOnFailure" is-config="true" duration-ms="1" started-at="2018-02-15T23:49:02Z" finished-at="2018-02-15T23:49:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyNavigateForward status=SKIP method=TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest.verifyNavigateForward()[pri:5, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest@78da899f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="SKIP" signature="verifyNavigateForward()[pri:5, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest@78da899f]" name="verifyNavigateForward" duration-ms="4167" started-at="2018-02-15T23:49:02Z" depends-on-methods="com.newtour.flightfinderfunctional.testcases.TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest.verifyNavigateBack" finished-at="2018-02-15T23:49:06Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//img[contains(@src,'/images/masts/mast_selectflight.gif')]"}
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.07 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'SEETHA', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\Lakshmi\AppData\Local\Temp\scoped_dir15716_11685}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1d9a814097dbc8c28c5460e9d9d21e9d
+*** Element info: {Using=xpath, value=//img[contains(@src,'/images/masts/mast_selectflight.gif')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//img[contains(@src,'/images/masts/mast_selectflight.gif')]"}
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.07 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'SEETHA', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\Lakshmi\AppData\Local\Temp\scoped_dir15716_11685}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1d9a814097dbc8c28c5460e9d9d21e9d
+*** Element info: {Using=xpath, value=//img[contains(@src,'/images/masts/mast_selectflight.gif')]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at com.newtour.qa.helper.XpathHelper.findByXPath(XpathHelper.java:88)
+	at com.newtour.qa.pages.FlightsPage.isFlightSearchSuccessful(FlightsPage.java:252)
+	at com.newtour.qa.pages.FlightsPage.verifyNavigateForward(FlightsPage.java:319)
+	at com.newtour.flightfinderfunctional.testcases.TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest.verifyNavigateForward(TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest.java:80)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:967)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:202)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:158)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:81)
+	at org.apache.maven.plugin.surefire.InPluginVMSurefireStarter.runSuitesInProcess(InPluginVMSurefireStarter.java:84)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:1060)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:907)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:785)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:134)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:207)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:116)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:80)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:51)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:307)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:193)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:106)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:863)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:288)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:199)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNavigateForward -->
+        <test-method status="FAIL" signature="verifyNavigateForward()[pri:5, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest@78da899f]" name="verifyNavigateForward" duration-ms="4158" started-at="2018-02-15T23:49:06Z" depends-on-methods="com.newtour.flightfinderfunctional.testcases.TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest.verifyNavigateBack" finished-at="2018-02-15T23:49:10Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//img[contains(@src,'/images/masts/mast_selectflight.gif')]"}
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.07 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'SEETHA', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\Lakshmi\AppData\Local\Temp\scoped_dir15716_11685}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1d9a814097dbc8c28c5460e9d9d21e9d
+*** Element info: {Using=xpath, value=//img[contains(@src,'/images/masts/mast_selectflight.gif')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//img[contains(@src,'/images/masts/mast_selectflight.gif')]"}
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.07 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'SEETHA', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\Lakshmi\AppData\Local\Temp\scoped_dir15716_11685}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1d9a814097dbc8c28c5460e9d9d21e9d
+*** Element info: {Using=xpath, value=//img[contains(@src,'/images/masts/mast_selectflight.gif')]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at com.newtour.qa.helper.XpathHelper.findByXPath(XpathHelper.java:88)
+	at com.newtour.qa.pages.FlightsPage.isFlightSearchSuccessful(FlightsPage.java:252)
+	at com.newtour.qa.pages.FlightsPage.verifyNavigateForward(FlightsPage.java:319)
+	at com.newtour.flightfinderfunctional.testcases.TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest.verifyNavigateForward(TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest.java:80)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:967)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:202)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:158)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:81)
+	at org.apache.maven.plugin.surefire.InPluginVMSurefireStarter.runSuitesInProcess(InPluginVMSurefireStarter.java:84)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:1060)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:907)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:785)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:134)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:207)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:116)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:80)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:51)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:307)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:193)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:106)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:863)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:288)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:199)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNavigateForward -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest@78da899f]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2018-02-15T23:49:06Z" finished-at="2018-02-15T23:49:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyNavigateForward status=SKIP method=TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest.verifyNavigateForward()[pri:5, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest@78da899f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest@78da899f]" name="takeScreenShotOnFailure" is-config="true" duration-ms="589" started-at="2018-02-15T23:49:10Z" finished-at="2018-02-15T23:49:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyNavigateForward status=FAILURE method=TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest.verifyNavigateForward()[pri:5, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest@78da899f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest@78da899f]" name="tearDown" is-config="true" duration-ms="1425" started-at="2018-02-15T23:49:11Z" finished-at="2018-02-15T23:49:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="verifySignOffTest()[pri:6, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest@78da899f]" name="verifySignOffTest" duration-ms="0" started-at="2018-02-15T23:49:11Z" depends-on-methods="com.newtour.flightfinderfunctional.testcases.TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest.verifyNavigateForward" finished-at="2018-02-15T23:49:11Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest.verifySignOffTest()[pri:6, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest@78da899f] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest.verifySignOffTest()[pri:6, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest@78da899f] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1037)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:202)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:158)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:81)
+	at org.apache.maven.plugin.surefire.InPluginVMSurefireStarter.runSuitesInProcess(InPluginVMSurefireStarter.java:84)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:1060)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:907)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:785)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:134)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:207)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:116)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:80)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:51)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:307)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:193)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:106)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:863)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:288)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:199)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignOffTest -->
+      </class> <!-- com.newtour.flightfinderfunctional.testcases.TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest -->
+      <class name="com.newtour.flightfinderfunctional.testcases.TC_KF_FF_01_VerifyOneWayFlightSearchTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_01_VerifyOneWayFlightSearchTest@2ac519dc]" name="before" is-config="true" duration-ms="4054" started-at="2018-02-15T23:43:16Z" finished-at="2018-02-15T23:43:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="verifyLaunchURLTest()[pri:0, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_01_VerifyOneWayFlightSearchTest@2ac519dc]" name="verifyLaunchURLTest" duration-ms="3994" started-at="2018-02-15T23:43:20Z" finished-at="2018-02-15T23:43:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLaunchURLTest -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_01_VerifyOneWayFlightSearchTest@2ac519dc]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2018-02-15T23:43:24Z" finished-at="2018-02-15T23:43:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLaunchURLTest status=SUCCESS method=TC_KF_FF_01_VerifyOneWayFlightSearchTest.verifyLaunchURLTest()[pri:0, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_01_VerifyOneWayFlightSearchTest@2ac519dc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="verifyCredentialsTest(java.lang.String, java.lang.String)[pri:1, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_01_VerifyOneWayFlightSearchTest@2ac519dc]" name="verifyCredentialsTest" duration-ms="19560" started-at="2018-02-15T23:43:24Z" data-provider="getTestData" depends-on-methods="com.newtour.flightfinderfunctional.testcases.TC_KF_FF_01_VerifyOneWayFlightSearchTest.verifyLaunchURLTest" finished-at="2018-02-15T23:43:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lakshmi12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Yourdreamsaremine0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCredentialsTest -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_01_VerifyOneWayFlightSearchTest@2ac519dc]" name="takeScreenShotOnFailure" is-config="true" duration-ms="1" started-at="2018-02-15T23:43:44Z" finished-at="2018-02-15T23:43:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCredentialsTest status=SUCCESS method=TC_KF_FF_01_VerifyOneWayFlightSearchTest.verifyCredentialsTest(java.lang.String, java.lang.String)[pri:1, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_01_VerifyOneWayFlightSearchTest@2ac519dc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="verifyOneWayFlightSearchTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_01_VerifyOneWayFlightSearchTest@2ac519dc]" name="verifyOneWayFlightSearchTest" duration-ms="64370" started-at="2018-02-15T23:43:44Z" data-provider="getJourneyTestData" depends-on-methods="com.newtour.flightfinderfunctional.testcases.TC_KF_FF_01_VerifyOneWayFlightSearchTest.verifyCredentialsTest" finished-at="2018-02-15T23:44:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Frankfurt]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[March]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[12.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Zurich]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[May]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Business]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Unified Airlines]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOneWayFlightSearchTest -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_01_VerifyOneWayFlightSearchTest@2ac519dc]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2018-02-15T23:44:49Z" finished-at="2018-02-15T23:44:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyOneWayFlightSearchTest status=SUCCESS method=TC_KF_FF_01_VerifyOneWayFlightSearchTest.verifyOneWayFlightSearchTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_01_VerifyOneWayFlightSearchTest@2ac519dc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="verifyFlightSearch()[pri:3, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_01_VerifyOneWayFlightSearchTest@2ac519dc]" name="verifyFlightSearch" duration-ms="2212" started-at="2018-02-15T23:44:49Z" depends-on-methods="com.newtour.flightfinderfunctional.testcases.TC_KF_FF_01_VerifyOneWayFlightSearchTest.verifyOneWayFlightSearchTest" finished-at="2018-02-15T23:44:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFlightSearch -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_01_VerifyOneWayFlightSearchTest@2ac519dc]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2018-02-15T23:44:51Z" finished-at="2018-02-15T23:44:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFlightSearch status=SUCCESS method=TC_KF_FF_01_VerifyOneWayFlightSearchTest.verifyFlightSearch()[pri:3, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_01_VerifyOneWayFlightSearchTest@2ac519dc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="verifyFlightDetailsList()[pri:4, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_01_VerifyOneWayFlightSearchTest@2ac519dc]" name="verifyFlightDetailsList" duration-ms="18915" started-at="2018-02-15T23:44:51Z" depends-on-methods="com.newtour.flightfinderfunctional.testcases.TC_KF_FF_01_VerifyOneWayFlightSearchTest.verifyFlightSearch" finished-at="2018-02-15T23:45:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFlightDetailsList -->
+        <test-method status="PASS" signature="verifyReserveFlights()[pri:5, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_01_VerifyOneWayFlightSearchTest@2ac519dc]" name="verifyReserveFlights" duration-ms="4392" started-at="2018-02-15T23:45:10Z" depends-on-methods="com.newtour.flightfinderfunctional.testcases.TC_KF_FF_01_VerifyOneWayFlightSearchTest.verifyFlightDetailsList" finished-at="2018-02-15T23:45:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyReserveFlights -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_01_VerifyOneWayFlightSearchTest@2ac519dc]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2018-02-15T23:45:10Z" finished-at="2018-02-15T23:45:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFlightDetailsList status=SUCCESS method=TC_KF_FF_01_VerifyOneWayFlightSearchTest.verifyFlightDetailsList()[pri:4, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_01_VerifyOneWayFlightSearchTest@2ac519dc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_01_VerifyOneWayFlightSearchTest@2ac519dc]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2018-02-15T23:45:14Z" finished-at="2018-02-15T23:45:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyReserveFlights status=SUCCESS method=TC_KF_FF_01_VerifyOneWayFlightSearchTest.verifyReserveFlights()[pri:5, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_01_VerifyOneWayFlightSearchTest@2ac519dc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="verifySignOffTest()[pri:6, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_01_VerifyOneWayFlightSearchTest@2ac519dc]" name="verifySignOffTest" duration-ms="10763" started-at="2018-02-15T23:45:14Z" depends-on-methods="com.newtour.flightfinderfunctional.testcases.TC_KF_FF_01_VerifyOneWayFlightSearchTest.verifyReserveFlights" finished-at="2018-02-15T23:45:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignOffTest -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_01_VerifyOneWayFlightSearchTest@2ac519dc]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2018-02-15T23:45:25Z" finished-at="2018-02-15T23:45:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySignOffTest status=SUCCESS method=TC_KF_FF_01_VerifyOneWayFlightSearchTest.verifySignOffTest()[pri:6, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_01_VerifyOneWayFlightSearchTest@2ac519dc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.newtour.flightfinderfunctional.testcases.TC_KF_FF_01_VerifyOneWayFlightSearchTest@2ac519dc]" name="tearDown" is-config="true" duration-ms="1786" started-at="2018-02-15T23:45:25Z" finished-at="2018-02-15T23:45:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.newtour.flightfinderfunctional.testcases.TC_KF_FF_01_VerifyOneWayFlightSearchTest -->
+    </test> <!-- Flight Finder KeyFunctional Automation TestSuite -->
+  </suite> <!-- NewTours Flight Finder Key Functional AutomationSuite -->
+</testng-results>

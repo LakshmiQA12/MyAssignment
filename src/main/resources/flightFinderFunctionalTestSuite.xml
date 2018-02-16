@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="NewTours Flight Finder Key Functional AutomationSuite">
+	
+<listeners>
+
+		<listener class-name="com.newtour.qa.ExtentReportListener.TestReporter" />
+		<listener class-name="com.newtour.qa.ExtentReportListener.RetryListener" />
+		<listener class-name="com.newtour.qa.ExtentReportListener.ExtentReport" />
+
+
+	</listeners>
+	<test name="Flight Finder KeyFunctional Automation TestSuite">
+		<classes>
+
+			<class
+				name="com.newtour.flightfinderfunctional.testcases.TC_KF_FF_01_VerifyOneWayFlightSearchTest"/>
+				<class
+				name="com.newtour.flightfinderfunctional.testcases.TC_KF_FF_02_VerifyRoundTripFlightSearchTest"/>
+				
+			<class
+				name="com.newtour.flightfinderfunctional.testcases.TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest" />
+		</classes>
+	</test>
+
+</suite>

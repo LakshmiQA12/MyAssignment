@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [NewTours Flight Finder Key Functional AutomationSuite]">
+  <listeners>
+    <listener class-name="com.newtour.qa.ExtentReportListener.TestReporter"/>
+    <listener class-name="com.newtour.qa.ExtentReportListener.RetryListener"/>
+    <listener class-name="com.newtour.qa.ExtentReportListener.ExtentReport"/>
+  </listeners>
+  <test name="Flight Finder KeyFunctional Automation TestSuite">
+    <classes>
+      <class name="com.newtour.flightfinderfunctional.testcases.TC_KF_FF_01_VerifyOneWayFlightSearchTest"/>
+      <class name="com.newtour.flightfinderfunctional.testcases.TC_KF_FF_02_VerifyRoundTripFlightSearchTest"/>
+      <class name="com.newtour.flightfinderfunctional.testcases.TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest"/>
+    </classes>
+  </test> <!-- Flight Finder KeyFunctional Automation TestSuite -->
+  <test name="Flight Finder KeyFunctional Automation TestSuite(failed)">
+    <classes>
+      <class name="com.newtour.flightfinderfunctional.testcases.TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest">
+        <methods>
+          <include name="verifyCredentialsTest"/>
+          <include name="verifyLaunchURLTest"/>
+          <include name="verifyFlightSearch"/>
+          <include name="takeScreenShotOnFailure"/>
+          <include name="tearDown"/>
+          <include name="verifyOneWayFlightSearchTest"/>
+          <include name="before"/>
+          <include name="verifyNavigateBack"/>
+          <include name="verifySignOffTest"/>
+          <include name="verifyNavigateForward"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.newtour.flightfinderfunctional.testcases.TC_KF_FF_03_VerifyFlightFinderPageNavigationsTest -->
+      <class name="com.newtour.flightfinderfunctional.testcases.TC_KF_FF_02_VerifyRoundTripFlightSearchTest">
+        <methods>
+          <include name="takeScreenShotOnFailure"/>
+          <include name="tearDown"/>
+          <include name="before"/>
+        </methods>
+      </class> <!-- com.newtour.flightfinderfunctional.testcases.TC_KF_FF_02_VerifyRoundTripFlightSearchTest -->
+      <class name="com.newtour.flightfinderfunctional.testcases.TC_KF_FF_01_VerifyOneWayFlightSearchTest">
+        <methods>
+          <include name="before"/>
+          <include name="takeScreenShotOnFailure"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.newtour.flightfinderfunctional.testcases.TC_KF_FF_01_VerifyOneWayFlightSearchTest -->
+    </classes>
+  </test> <!-- Flight Finder KeyFunctional Automation TestSuite(failed) -->
+</suite> <!-- Failed suite [NewTours Flight Finder Key Functional AutomationSuite] -->

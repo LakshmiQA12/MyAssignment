@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="NewTours Login Key Functional AutomationSuite">
+	<listeners>
+
+		<listener class-name="com.newtour.qa.ExtentReportListener.TestReporter" />
+		<listener class-name="com.newtour.qa.ExtentReportListener.RetryListener" />
+		<listener class-name="com.newtour.qa.ExtentReportListener.ExtentReport" />
+
+
+	</listeners>
+
+	<test name="Login KeyFunctional TestSuite">
+		<classes>
+
+			<class
+					name="com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_01_VerifyHomePageLoginTest" />
+				        
+            <class
+					name="com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_02_VerifySignOnPageLoginTest"/>
+            <class
+			        name="com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_03_VerifySignOnPageInvalidLoginTest"/>
+			  <class
+			
+			        name="com.newtour.LoginKeyfunctional.testcases.TC_KF_LG_04_VerifyRegistrationViaSignOnPageTest"/>
+			        
+
+
+		</classes>
+	</test>
+
+
+</suite>
